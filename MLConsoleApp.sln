@@ -5,6 +5,10 @@ VisualStudioVersion = 25.0.1704.4
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MLConsoleApp", "MLConsoleApp\MLConsoleApp.csproj", "{3A95F660-209A-497E-87BB-9E5B935E55D9}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{7BC9C697-20AB-4858-A446-1B88FDE45D88}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{0CC37BA2-83CB-4FA2-9763-74CE483E6526}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,10 @@ Global
 		{3A95F660-209A-497E-87BB-9E5B935E55D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3A95F660-209A-497E-87BB-9E5B935E55D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3A95F660-209A-497E-87BB-9E5B935E55D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CC37BA2-83CB-4FA2-9763-74CE483E6526}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CC37BA2-83CB-4FA2-9763-74CE483E6526}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CC37BA2-83CB-4FA2-9763-74CE483E6526}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CC37BA2-83CB-4FA2-9763-74CE483E6526}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

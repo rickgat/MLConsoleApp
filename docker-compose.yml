@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  mlconsoleapp:
+    image: ${DOCKER_REGISTRY-}mlconsoleapp
+    build:
+      context: .
+      dockerfile: MLConsoleApp/Dockerfile
